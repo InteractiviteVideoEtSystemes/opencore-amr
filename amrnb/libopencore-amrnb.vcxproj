@@ -343,11 +343,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <PublicIncludeDirectories>..\opencore\codecs_v2\audio\gsm_amr\amr_nbenc\include;..\opencore\codecs_v2\audio\gsm_amr\amr_nb\dec\include;..\opencore\codecs_v2\audio\gsm_amr\amr_nb\common\include</PublicIncludeDirectories>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <PublicIncludeDirectories>
     </PublicIncludeDirectories>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
