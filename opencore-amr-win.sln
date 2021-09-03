@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libopencore-amrnb", "amrnb\libopencore-amrnb.vcxproj", "{B47F1954-F5A1-4D40-8423-CE28E2D5D607}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libopencore-amrwb", "libopencore-amrwb\libopencore-amrwb.vcxproj", "{440B7FCB-9712-4D57-B631-33058AEB8092}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libopencore-amrwb", "amrwb\libopencore-amrwb.vcxproj", "{440B7FCB-9712-4D57-B631-33058AEB8092}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
